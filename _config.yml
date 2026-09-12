@@ -10,9 +10,7 @@ contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Abimbola (Abim) Ogungbire, Ph.D. — Traffic/ITS Engineer at Gresham Smith. Traffic safety analytics, machine learning for transportation, and traffic operations.
-footer_text: >
-  Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio">al-folio</a>,
-  deployed automatically by GitHub Actions to <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+footer_text: # leave empty to show only the copyright line
 keywords: traffic engineering, ITS, traffic safety, machine learning, crash prediction, ATSPM, autonomous vehicles, Atlanta
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🚦 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
