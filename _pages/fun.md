@@ -17,7 +17,8 @@ Keep the file names simple (no spaces), e.g. baseball-2024.jpg
 -->
 
 <div class="row">
-{% assign fun_images = site.static_files | where_exp: "f", "f.path contains '/assets/img/fun/'" | sort: "path" %}
+{% comment %} Only the originals: the theme generates -480/-800/-1400 .webp copies of each image at build time. {% endcomment %}
+{% assign fun_images = site.static_files | where_exp: "f", "f.path contains '/assets/img/fun/'" | where_exp: "f", "f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.png'" | sort: "path" %}
 {% if fun_images.size == 0 %}
   <div class="col-12">
     <p class="text-muted">Photos are on their way. Check back soon!</p>
