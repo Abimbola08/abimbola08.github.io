@@ -2,6 +2,7 @@
 layout: page
 title: Charlotte Douglas Airport access modeling
 description: Calibrated VISSIM microsimulation of the airport road network to evaluate unconventional intersections and new access routes.
+img: assets/img/projects/airport-access.png
 importance: 4
 category: research
 related_publications: pulugurtha2023mti2120

@@ -2,6 +2,7 @@
 layout: page
 title: Statewide weather-related crash risk mapping
 description: Space-time cubes, EPDO risk scores, and machine learning to find and explain high-risk locations across North Carolina.
+img: assets/img/projects/crash-risk-map.png
 importance: 1
 category: research
 related_publications: ogungbire2025spatiotemporal, ogungbire2026forecasting

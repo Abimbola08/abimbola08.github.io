@@ -2,6 +2,7 @@
 layout: page
 title: Signal operations and ATSPM for GDOT
 description: Signal retiming, performance monitoring dashboards, and simulation of timing alternatives on Georgia arterials.
+img: assets/img/projects/signal-operations.png
 importance: 5
 category: practice
 ---

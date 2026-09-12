@@ -2,6 +2,7 @@
 layout: page
 title: Public perception of autonomous vehicles
 description: How non-motorists' safety perception of AVs shifts after a fatal crash, using fixed- and random-parameter ordered logit models.
+img: assets/img/projects/av-perception.png
 importance: 3
 category: research
 related_publications: ogungbire2023perception, kalambay2025taxis, kalambay2026shuttles

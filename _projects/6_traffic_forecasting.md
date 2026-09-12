@@ -2,6 +2,7 @@
 layout: page
 title: Traffic forecasting and safety analysis for GDOT
 description: Forecast report reviews, traffic impact analyses, and crash data analysis for the Georgia DOT Office of Planning and Budgeting.
+img: assets/img/projects/traffic-forecasting.png
 importance: 6
 category: practice
 ---

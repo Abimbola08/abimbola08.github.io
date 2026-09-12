@@ -2,6 +2,7 @@
 layout: page
 title: Crash severity prediction with imbalanced data
 description: Synthetic data generation for nominal predictors (SMOTE-N, ADASYN-N extensions) and a benchmark of severity models.
+img: assets/img/projects/severity-imbalance.png
 importance: 2
 category: research
 related_publications: ogungbire2024imbalance, ogungbire2023mti2320
