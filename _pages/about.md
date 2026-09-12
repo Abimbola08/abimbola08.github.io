@@ -10,8 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p class="font-weight-bold mb-0">Atlanta, Georgia</p>
-    <p class="mb-0">Traffic operations · Safety analytics</p>
-    <p>ML for transportation systems</p>
+    <p>Traffic · Safety · ML</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -36,9 +35,10 @@ latest_posts:
     background: var(--global-card-bg-color);
   }
   .toolkit span.hot { border-color: var(--global-theme-color); color: var(--global-theme-color); }
-  .focus-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 0.75rem; margin: 0.4rem 0 1.4rem 0; }
+  .focus-row { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; margin: 0.4rem 0 1.4rem 0; }
   .focus-row div { padding: 0.7rem 0.85rem; border-left: 3px solid var(--global-theme-color); background: var(--global-card-bg-color); border-radius: 0.3rem; font-size: 0.92rem; }
   .focus-row b { display: block; margin-bottom: 0.15rem; }
+  @media (max-width: 576px) { .focus-row { grid-template-columns: 1fr; } }
 </style>
 
 Hi, I'm Abim. I'm a Traffic/ITS Engineer who likes to solve transportation problems with data: I hold a Ph.D. in Transportation Systems from the William States Lee College of Engineering at the [University of North Carolina at Charlotte](https://www.charlotte.edu/), where I built and validated machine learning systems for **weather-related crash prediction**, combining geospatial analytics with modern ML for crash risk mapping, severity prediction, and forecasting.
