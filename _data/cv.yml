@@ -1,189 +1,227 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Abimbola R. Ogungbire, Ph.D.
+  label: Transportation Engineer & Traffic Safety Researcher
+  email: ogungbireabimbola@gmail.com
+  location: Atlanta, GA
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Traffic/ITS Engineer with a Ph.D. in Transportation Systems. Research at the intersection of traffic safety analytics, geospatial analysis, and machine learning, with professional practice in traffic operations, signal performance, and traffic forecasting for state DOT programs.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: abimbola08
+    - network: GitHub
+      username: Abimbola08
+    - network: ORCID
+      username: 0000-0002-1176-0422
+    - network: Google Scholar
+      username: DMrJ_MYAAAAJ
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+    Academic Interests:
+      - name: Traffic safety analytics
+        keywords: "Weather-related crash risk prediction, spatiotemporal risk mapping, crash severity modeling, imbalanced-data treatment"
+      - name: Machine learning & deep learning for transportation systems
+        keywords: "Random forest, XGBoost, ConvLSTM, synthetic data generation, forecasting"
+      - name: Connected & automated vehicles
+        keywords: "Public perception, agency data readiness"
+      - name: Traffic operations
+        keywords: "Signal performance measures (ATSPM), microscopic simulation, traffic forecasting"
+      - name: Traveler behavior
+        keywords: "Econometric and discrete-choice modeling"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+    Education:
+      - institution: University of North Carolina at Charlotte
+        location: Charlotte, NC
+        url: https://www.charlotte.edu/
+        area: Infrastructure and Environmental Systems (Transportation Systems)
+        studyType: Ph.D.
+        end_date: 2024
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Dissertation: Novel Machine Learning Techniques for Weather-Related Crash Prediction"
+          - "Advisor: Dr. Srinivas S. Pulugurtha"
+
+      - institution: University of North Carolina at Greensboro
+        location: Greensboro, NC
+        url: https://www.uncg.edu/
+        area: Informatics and Analytics (Geospatial Analytics)
+        studyType: M.S.
+
+      - institution: Osun State University
+        location: Osogbo, Nigeria
+        area: Civil Engineering (Transportation Engineering)
+        studyType: B.Eng.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Gresham Smith — GDOT Traffic Forecasting
+        position: Traffic Engineer
+        location: Atlanta, GA
+        start_date: 2024-11-01
+        end_date: present
         highlights:
-          - Relativity
-          - Description 2.
+          - Review traffic forecasting reports on behalf of the Georgia Department of Transportation Office of Planning and Budgeting.
+          - Conduct traffic impact analyses for proposed developments and perform roundabout, intersection, and interchange analysis in SIDRA.
+          - Analyze crash, volume, and roadway data to identify high-risk locations and prioritize safety countermeasures; present spatial crash trends using GIS and Tableau.
+          - Prepare technical reports and presentations for clients and public agencies.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Gresham Smith — GDOT SigOps
+        position: Traffic Signal & Operations Engineer
+        location: Atlanta, GA
+        start_date: 2023-05-01
+        end_date: 2024-10-31
         highlights:
-          - Description 1.
-          - Description 2.
+          - Configured, monitored, and retimed signal controllers using Q-Free MaxTime and MaxView to improve arterial flow and reduce delay.
+          - Extracted and interpreted Automated Traffic Signal Performance Measures (ATSPM) to inform signal timing strategies; built Power BI/DAX dashboards for performance monitoring.
+          - Simulated signal timing alternatives in VISSIM and TransModeler to quantify impacts on flow, safety, and efficiency.
+          - Developed automation scripts for data extraction and analysis, substantially reducing manual effort; contributed to technical proposals and business development.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: University of North Carolina at Charlotte — IDEAS Center
+        position: Graduate Research Assistant
+        location: Charlotte, NC
+        start_date: 2021-08-01
+        end_date: 2023-05-31
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Developed a statewide weather-related crash risk workflow for North Carolina using space-time cubes (5-mi grid, monthly aggregation) and EPDO risk scores, with machine learning models to identify, predict, and interpret high-risk locations.
+          - Designed synthetic data generation techniques (SMOTE-N, ADASYN-N extensions) for nominal crash predictors and benchmarked random forest and XGBoost crash severity models; published in Transportation Research Record.
+          - Compared deep learning, machine learning, and statistical models for weather-related crash severity prediction under a Mineta Transportation Institute–funded project (MTI 2320); co-authored the final report.
+          - Modeled the effect of mountainous terrain on weather-related crash rates using Tobit, latent class Tobit, and two-part truncated log-normal models.
+          - Identified connected and automated vehicle (CAV) data needs of North Carolina public agencies and developed a data readiness framework for NCDOT.
+          - Built and calibrated VISSIM microsimulation models of the Charlotte Douglas International Airport road network; evaluated unconventional intersection designs (CFI, RCUT, mini roundabouts) on travel time reliability (MTI 2120).
+          - Estimated fixed- and random-parameter ordered logit models of non-motorists' safety perception of autonomous vehicles.
+
+      - company: Volvo Group — IT
+        position: Data Analyst Intern
+        location: New River Valley, VA
+        start_date: 2021-01-01
+        end_date: 2021-05-31
+        highlights:
+          - Automated data extraction and preprocessing in R; conducted exploratory analysis and built KPI dashboards for production monitoring.
+          - Assisted in designing and testing predictive maintenance and anomaly detection models for production line equipment.
+
+      - company: Federal Ministry of Works — Department of Highways
+        position: Transportation Engineer I
+        location: Kwara, Nigeria
+        start_date: 2017-04-01
+        end_date: 2019-07-31
+        highlights:
+          - Conducted traffic signal warrant analyses and developed signal timing plans from field traffic data; supported signal upgrade implementation and post-installation evaluation.
+          - Prepared traffic engineering reports covering traffic counts, speed studies, and level-of-service analysis; managed technical proposals with a cumulative value exceeding $200,000.
+          - Coordinated with municipal and state agencies to ensure compliance with local traffic engineering standards.
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: ITE Young Leader to Follow
+        date: 2026
+        awarder: Institute of Transportation Engineers (ITE) Annual Meeting
+        summary: One of 20 transportation professionals selected nationally through a competitive application process.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: Lifesavers Traffic Safety Scholar
+        date: 2024
+        awarder: Lifesavers Conference on Roadway Safety
+        summary: One of 20 students selected nationally through a competitive application process; attended the 42nd Lifesavers Conference, Denver, CO.
+
+      - title: Excellence in Highway Safety Data Award — 2nd Place
+        date: 2023
+        awarder: ITE and FHWA Highway Safety Information System (HSIS) Student Research Paper Competition
+        summary: For "Vehicle Crashes on Highway Segments with a Rail Grade Crossing — Insights into the Key Risk Factors in North Carolina."
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Autonomous shuttles in the public eye: Mediators on the path to successful expansion"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Kalambay, P.
+          - Novat, N.
+          - Kutela, B.
+          - Ogungbire, A.
+          - Kitali, A.
+          - Kidando, E.
+        publisher: Case Studies on Transport Policy, 101719
+        releaseDate: 2026
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Weather-related crash risk forecasting: A deep learning approach for heterogeneous spatiotemporal data"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Ogungbire, A.
+          - Pulugurtha, S. S.
+        publisher: arXiv preprint arXiv:2603.04551
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2603.04551
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "Spatiotemporal risk mapping of statewide weather-related traffic crashes: A machine learning approach"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Ogungbire, A.
+          - Pulugurtha, S. S.
+        publisher: Machine Learning with Applications, 20, 100642
+        releaseDate: 2025
+
+      - title: "Autonomous taxis and ride-sharing vehicles: A social construct perspective for future mobility and infrastructure readiness"
+        authors:
+          - Kalambay, P.
+          - Kitali, A.
+          - Ngereza, A.
+          - Kidando, E.
+          - Ogungbire, A.
+        publisher: Sustainable Cities and Society, 118, 106060
+        releaseDate: 2025
+
+      - title: "Effectiveness of data imbalance treatment in weather-related crash severity analysis"
+        authors:
+          - Ogungbire, A.
+          - Pulugurtha, S. S.
+        publisher: Transportation Research Record, 2678(11), 88–105
+        releaseDate: 2024
+
+      - title: "Exploring the effect of mountainous terrain on weather-related crashes"
+        authors:
+          - Ogungbire, A.
+          - Kalambay, P.
+          - Pulugurtha, S. S.
+        publisher: IATSS Research, 48(2), 136–146
+        releaseDate: 2024
+
+      - title: "Novel machine learning techniques for weather-related crash prediction"
+        authors:
+          - Ogungbire, A. R.
+        publisher: Doctoral dissertation, University of North Carolina at Charlotte
+        releaseDate: 2024
+
+      - title: "Does non-motorists' safety perception of autonomous vehicles vary across opinion change stemming from crash occurrence? Investigating perceptions using fixed and random parameter ordered logit models"
+        authors:
+          - Ogungbire, A.
+          - Pulugurtha, S. S.
+        publisher: Heliyon, 9(9), e19913
+        releaseDate: 2023
+
+      - title: "Deep learning, machine learning, or statistical models for weather-related crash severity prediction (MTI Project 2320)"
+        authors:
+          - Ogungbire, A.
+          - Kalambay, P.
+          - Gajera, H.
+          - Pulugurtha, S. S.
+        publisher: Mineta Transportation Institute, San José State University
+        releaseDate: 2023
+
+      - title: "Modeling and evaluating alternatives to enhance access to an airport and meet future expansion needs (MTI Project 2120)"
+        authors:
+          - Pulugurtha, S. S.
+          - Ogungbire, A.
+          - Akbari, C.
+        publisher: Mineta Transportation Institute, San José State University
+        releaseDate: 2023
+
+    Conference Presentations:
+      - bullet: "**Ogungbire, A.**, & Pulugurtha, S. S. (2026, January). Spatio-temporal risk mapping of statewide weather-related traffic crashes: A machine learning approach. Poster, Paper TRBAM-26-05274. Transportation Research Board 105th Annual Meeting, Washington, DC."
+      - bullet: "Kalambay, P., Novat, N., Kutela, B., **Ogungbire, A.**, Kitali, A., & Kidando, E. (2025, January). Autonomous shuttles in the public eye: Mediators on the path to successful expansion. Poster, Paper TRBAM-25-03412. Transportation Research Board 104th Annual Meeting, Washington, DC."
+      - bullet: "**Ogungbire, A.**, & Pulugurtha, S. S. (2024, January). The effectiveness of data imbalance treatment in weather-related crash severity analysis. Lectern presentation, Paper TRBAM-24-06189. Transportation Research Board 103rd Annual Meeting, Washington, DC."
+      - bullet: "Kalambay, P., **Ogungbire, A.**, & Pulugurtha, S. S. (2024, January). Vehicle crashes on highway segments with a rail grade crossing: Insights into the key risk factors in North Carolina. Poster, Paper TRBAM-24-06333. Transportation Research Board 103rd Annual Meeting, Washington, DC."
+      - bullet: "**Ogungbire, A.**, Diba, D. S., & Pulugurtha, S. S. (2023, January). How does non-motorists' safety perception of autonomous vehicles vary across opinion change stemming from crash occurrence? Lectern presentation, Paper TRBAM-23-03090. Transportation Research Board 102nd Annual Meeting, Washington, DC."
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Modeling & Analysis
+        icon: fa-solid fa-chart-line
+        keywords: "Machine learning and deep learning (random forest, XGBoost, ConvLSTM), discrete-choice and count models (ordered logit, Tobit, latent class), time series (ARIMA), spatial statistics and space-time cube analysis, survey and experimental design, mixed-methods research"
+      - name: Programming & Data
+        icon: fa-solid fa-code
+        keywords: "Python, R, DAX, Hadoop, Power BI, Tableau, GIS"
+      - name: Transportation Software
+        icon: fa-solid fa-traffic-light
+        keywords: "VISSIM, TransModeler, SIDRA, Q-Free MaxTime / MaxView, ATSPM, Navigator"
+      - name: Engineering
+        icon: fa-solid fa-road
+        keywords: "Microscopic simulation, traffic signal operations and control, operations monitoring, traffic forecasting, traffic impact analysis, systems analysis and evaluation"
