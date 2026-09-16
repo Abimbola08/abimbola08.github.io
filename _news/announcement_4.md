@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on spatiotemporal risk mapping of weather-related crashes is published in *Machine Learning with Applications*.
+Our paper on spatiotemporal risk mapping of weather-related crashes is published in _Machine Learning with Applications_.

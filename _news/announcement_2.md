@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New preprint out: *Weather-related crash risk forecasting: A deep learning approach for heterogeneous spatiotemporal data* — now on [arXiv](https://arxiv.org/abs/2603.04551).
+New preprint out: _Weather-related crash risk forecasting: A deep learning approach for heterogeneous spatiotemporal data_ — now on [arXiv](https://arxiv.org/abs/2603.04551).
