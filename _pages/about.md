@@ -60,4 +60,8 @@ Today I'm at [Gresham Smith](https://www.greshamsmith.com/) in Atlanta, supporti
   <span class="hot">Python</span><span class="hot">R</span><span>XGBoost</span><span>Random Forest</span><span>ConvLSTM</span><span>Ordered logit</span><span>Space-time cubes</span><span class="hot">GIS</span><span>Power BI / DAX</span><span>Tableau</span><span class="hot">VISSIM</span><span>TransModeler</span><span>SIDRA</span><span>ATSPM</span><span>MaxTime / MaxView</span>
 </div>
 
+**Software**
+
+Reference implementations of the methods behind my research: [stcube](https://github.com/Abimbola08/Spatiotemporal-Cube-Construction-for-Spatial-Data) builds space-time cubes with EPDO risk scoring from crash points, and [nominal-oversampling](https://github.com/Abimbola08/crash-severity-imbalance) implements SMOTE-N / ADASYN-N for categorical crash-severity predictors. Both are tested, documented Python packages.
+
 Outside of work, I enjoy time with my family, movies, and games, and I'm a big baseball fan. The [fun](/fun/) page has a few snapshots from life outside the office.
