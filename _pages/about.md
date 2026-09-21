@@ -64,4 +64,4 @@ Today I'm at [Gresham Smith](https://www.greshamsmith.com/) in Atlanta, supporti
 
 Reference implementations of the methods behind my research: [stcube](https://github.com/Abimbola08/Spatiotemporal-Cube-Construction-for-Spatial-Data) builds space-time cubes with EPDO risk scoring from crash points, and [nominal-oversampling](https://github.com/Abimbola08/crash-severity-imbalance) implements SMOTE-N / ADASYN-N for categorical crash-severity predictors. Both are tested, documented Python packages.
 
-Outside of work, I enjoy time with my family, movies, and games, and I'm a big baseball fan. The [fun](/fun/) page has a few snapshots from life outside the office.
+Outside of work, I enjoy time with my family, movies, and games, and I'm a big baseball fan. The [gallery](/gallery/) page has a few snapshots from life outside the office.
